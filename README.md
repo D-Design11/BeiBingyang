@@ -2,6 +2,8 @@
 
 从现有网站复制的独立版本，包含当前规则、排版引擎、原始品牌素材和网页。可本地运行，也提供 GitHub Actions 出图工作流与 GitHub Pages 部署入口。没有模型 API Key，也不依赖个人 Codex 会话。
 
+代码仓库：https://github.com/D-Design11/didi-design-rules 。首次 GitHub 出图运行已经成功：[查看出图结果与下载包](https://github.com/D-Design11/didi-design-rules/actions/runs/42772506797)。在运行页面的 Artifacts 区下载 `rendered-images`。
+
 ## 本地打开网站
 
 需要 Node.js 22 或更新版本；批量出图另需安装 Chrome 或 Chromium。没有 npm 第三方依赖，无需 npm install。
@@ -57,4 +59,4 @@ GitHub Actions 是按次启动的任务，不是持续运行的图片 API。若�
 
 ## 验证结果
 
-本地实际 Chrome 已成功用品牌字体生成横版与竖版 PNG，超长标题会被阻止出图。横版六字标题存在五字加单字的换行问题，暂时保留原规则并记录在 `VALIDATION.md`。GitHub 工作流只完成语法检查，尚未在远程执行；详细完成范围以 `VALIDATION.md` 为准。
+本地实际 Chrome 与 GitHub Actions 均已成功用品牌字体生成横版与竖版 PNG；本地负向验证确认超长标题会被阻止出图。横版六字标题存在五字加单字的换行问题，暂时保留原规则并记录在 `VALIDATION.md`。GitHub 的规则检查、实际出图与产物上传均已通过；Pages 尚未发布。详细完成范围以 `VALIDATION.md` 为准。

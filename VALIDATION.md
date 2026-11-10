@@ -11,6 +11,9 @@
 - 在 Node 沙箱调用原排版引擎：横版、竖版示例可通过布局检查；超长标题被拒绝；SVG 内容转义检查通过。此项使用估算字体，不代表浏览器中的真实字体验收。
 - 用户明确允许后，成功启动仅监听 127.0.0.1 的临时服务和独立无界面 Chrome，完成实际品牌字体出图验证：规则版本 0.3.1，measurementMode 为 actual-font；横版 PNG 为 1500 × 1061，竖版 PNG 为 1500 × 2121。已经打开两张实际输出图片进行目视检查，图像、文字、Logo 和识别口号均有输出。
 - 使用超长标题执行真实浏览器负向验证：横版与竖版均被容量检查拒绝，命令返回失败状态；保存错误报告，没有生成 PNG。
+- 已上传到公开仓库 https://github.com/D-Design11/didi-design-rules ，用户明确同意保留公开并上传品牌素材与字体。首次完整提交为 `b99f5f5d47197a8c75c771b15d7cd6e2d6d1e38a`；远程 46 个文件与本地逐文件 Git blob SHA 核对一致。
+- GitHub Actions 的 Check rules 已成功完成：https://github.com/D-Design11/didi-design-rules/actions/runs/42772506816 。
+- GitHub Actions 的 Render images 已成功完成：https://github.com/D-Design11/didi-design-rules/actions/runs/42772506797 。运行日志确认规则 0.3.1 使用实际品牌字体生成 2 张 PNG；出图与 upload-artifact 步骤均成功。下载产物名为 `rendered-images`，归档大小 3,323,785 字节，保留 7 天；到期可重新运行。
 
 实际发现的问题：
 
@@ -18,7 +21,7 @@
 
 尚未完成：
 
-- GitHub 上传、Actions 实际运行和 Pages 部署仍待验证。用户已创建公开仓库 D-Design11/didi-design-rules，并明确选择保留公开上传。已确认 GitHub 连接有仓库写入权限，且联网核实了 GitHub 手动工作流说明和 setup-chrome 的 chrome-path 输出接口；远程执行结果需另行记录。
+- GitHub Pages 网站发布尚未执行；当前仅完成代码托管与 Actions 批量出图运行。
 - 完整 PDF 规则复核、完整品牌验收和印前生产验收。
 
-本包不应被描述为已完成 GitHub 部署、完整品牌验收，或完整 PDF 规则 Skill。实际字体与 PNG 导出流程已通过本地验证。
+实际字体与 PNG 导出流程已通过本地及 GitHub Actions 验证。当前结果不代表完整品牌验收、完整 PDF 规则 Skill 或已发布 GitHub Pages 网站。
