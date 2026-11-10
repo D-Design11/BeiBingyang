@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "City material component asset registry",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "package_id",
+    "package_version",
+    "prepared_on",
+    "path_base",
+    "assets"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "package_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "package_version": {
+      "type": "string"
+    },
+    "prepared_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "source_scope": {
+      "type": "string"
+    },
+    "path_base": {
+      "const": "directory-containing-this-json"
+    },
+    "asset_version_policy": {
+      "type": "string"
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "version",
+          "version_scope",
+          "type",
+          "display_name",
+          "file",
+          "mime_type",
+          "byte_size",
+          "sha256",
+          "source",
+          "technical_status",
+          "publication_status",
+          "brand_conformance_review",
+          "tags",
+          "metadata"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "version": {
+            "type": "string"
+          },
+          "version_scope": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "logo",
+              "slogan",
+              "font",
+              "main_visual"
+            ]
+          },
+          "display_name": {
+            "type": "string"
+          },
+          "file": {
+            "type": "string",
+            "minLength": 1
+          },
+          "mime_type": {
+            "enum": [
+              "image/png",
+              "font/otf"
+            ]
+          },
+          "byte_size": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "source": {
+            "type": "object",
+            "required": [
+              "kind",
+              "original_filename",
+              "received_on"
+            ],
+            "properties": {
+              "kind": {
+                "enum": [
+                  "user_provided_directory",
+                  "user_provided_file"
+                ]
+              },
+              "original_filename": {
+                "type": "string"
+              },
+              "received_on": {
+                "type": "string",
+                "format": "date"
+              }
+            },
+            "additionalProperties": false
+          },
+          "technical_status": {
+            "enum": [
+              "validated",
+              "validated_with_sample_gaps"
+            ]
+          },
+          "publication_status": {
+            "enum": [
+              "draft",
+              "published",
+              "disabled"
+            ]
+          },
+          "brand_conformance_review": {
+            "type": "string"
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "metadata": {
+            "type": "object"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

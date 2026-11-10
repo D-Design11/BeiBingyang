@@ -1,0 +1,468 @@
+{
+  "schema_version": "1.0.0",
+  "package_id": "didi-component-assets",
+  "package_version": "0.4.0",
+  "prepared_on": "2026-11-09",
+  "source_scope": "用户品牌资产与四张新提供的出行人物主视觉；历史主视觉保留用于已保存项目。",
+  "path_base": "directory-containing-this-json",
+  "asset_version_policy": "资产内容更新须产生新版本；生产任务记录实际绑定版本。",
+  "assets": [
+    {
+      "asset_id": "didi.chuxing.logo.horizontal.reverse",
+      "version": "1.0.0",
+      "version_scope": "本资产库的首次导入版本，不是官方品牌规范版本号。",
+      "type": "logo",
+      "display_name": "滴滴出行 · 横向反白标识",
+      "file": "assets/brand/assets/logos/didi-logo.png",
+      "mime_type": "image/png",
+      "byte_size": 161711,
+      "sha256": "5f2f413ff85ba46550baae02571dd29ad4a7d3d8fba90e1d4d304d00c8ba09bc",
+      "source": {
+        "kind": "user_provided_directory",
+        "original_filename": "didi-logo.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "didi",
+        "city-operations",
+        "logo"
+      ],
+      "metadata": {
+        "canvas_px": {
+          "width": 7087,
+          "height": 3544
+        },
+        "color_mode": "RGBA",
+        "has_transparent_pixels": true,
+        "alpha_threshold": 0,
+        "visible_bounds_px": {
+          "left": 651,
+          "top": 1206,
+          "right": 6436,
+          "bottom": 2338
+        },
+        "bounds_convention": "top-left origin; left/top inclusive, right/bottom exclusive",
+        "visible_size_px": {
+          "width": 5785,
+          "height": 1132
+        },
+        "visible_aspect_ratio": 5.110424028268551,
+        "source_canvas_aspect_ratio": 1.9997178329571106,
+        "normalized_content_rect": [
+          0.09185833215747143,
+          0.34029345372460496,
+          0.8162833356850572,
+          0.3194130925507901
+        ],
+        "foreground_mean_rgb": [
+          255,
+          255,
+          255
+        ],
+        "observed_color_variant": "reverse_white",
+        "background_note": "反白素材；建议用于深色或经对比检查的图片背景。当前包未生成其他配色版本。",
+        "geometry_note": "原文件未裁切。布局时可依据 visible_bounds 定位；透明留白不等同于已经确认的品牌安全区。",
+        "format_note": "PNG 位图原件；未伪装成矢量文件。"
+      }
+    },
+    {
+      "asset_id": "didi.chuxing.slogan.single-line.reverse",
+      "version": "1.0.0",
+      "version_scope": "本资产库的首次导入版本，不是官方品牌规范版本号。",
+      "type": "slogan",
+      "display_name": "去往每一种生活 · 单行反白口号",
+      "file": "assets/brand/assets/slogans/slogan-landscape.png",
+      "mime_type": "image/png",
+      "byte_size": 12896,
+      "sha256": "8bba04bed000d2cd4f5c20643374dc876162ca8afa858dad114bee431c605df2",
+      "source": {
+        "kind": "user_provided_directory",
+        "original_filename": "slogan-landscape.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "didi",
+        "city-operations",
+        "slogan"
+      ],
+      "metadata": {
+        "canvas_px": {
+          "width": 1520,
+          "height": 291
+        },
+        "color_mode": "RGBA",
+        "has_transparent_pixels": true,
+        "alpha_threshold": 0,
+        "visible_bounds_px": {
+          "left": 0,
+          "top": 0,
+          "right": 1520,
+          "bottom": 291
+        },
+        "bounds_convention": "top-left origin; left/top inclusive, right/bottom exclusive",
+        "visible_size_px": {
+          "width": 1520,
+          "height": 291
+        },
+        "visible_aspect_ratio": 5.223367697594502,
+        "source_canvas_aspect_ratio": 5.223367697594502,
+        "normalized_content_rect": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "foreground_mean_rgb": [
+          255,
+          255,
+          255
+        ],
+        "observed_color_variant": "reverse_white",
+        "background_note": "反白素材；建议用于深色或经对比检查的图片背景。当前包未生成其他配色版本。",
+        "geometry_note": "原文件未裁切。布局时可依据 visible_bounds 定位；透明留白不等同于已经确认的品牌安全区。",
+        "format_note": "PNG 位图原件；未伪装成矢量文件。"
+      }
+    },
+    {
+      "asset_id": "didi.font.hyqihei.50s",
+      "version": "1.0.0",
+      "version_scope": "本资产库的首次导入版本，不是官方品牌规范版本号。",
+      "type": "font",
+      "display_name": "汉仪旗黑 50S",
+      "file": "assets/brand/assets/fonts/HYQiHei-50S.otf",
+      "mime_type": "font/otf",
+      "byte_size": 6800484,
+      "sha256": "ddbc12b6a1acba5f887fa16d8a8d27ebb5083b5cbe1159e95b2d1be50041ad89",
+      "source": {
+        "kind": "user_provided_directory",
+        "original_filename": "HYQiHei-50S.otf",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "didi",
+        "city-operations",
+        "font"
+      ],
+      "metadata": {
+        "family_names": [
+          "HYQiHei-50S",
+          "汉仪旗黑-50S"
+        ],
+        "subfamily": "Light",
+        "full_name": "HYQiHei-50S Light",
+        "postscript_name": "HYQiHei-EZS",
+        "sfnt_weight_class": 400,
+        "units_per_em": 1000,
+        "ascender_units": 916,
+        "descender_units": -301,
+        "line_gap_units": 0,
+        "glyph_count": 28777,
+        "free_type_loadable": true,
+        "sample_coverage": {
+          "sample": "城市运营 活动海报 上海 北京 杭州 和这座城一起出发 活动时间 地点 扫码了解详情 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ，。！？：；（）×—%",
+          "tested_unique_characters": 103,
+          "missing_characters": [],
+          "scope": "仅验证本样本，不代表完整 Unicode 覆盖；运行时仍应检查用户输入字形。"
+        },
+        "sample_text_measurement": {
+          "text": "和这座城一起出发",
+          "font_size_px": 44,
+          "advance_width_px": 352,
+          "bbox_px": [
+            0,
+            5,
+            352,
+            46
+          ]
+        },
+        "css_family": "DiDi-HYQiHei-50S",
+        "web_font_face_weight": 400,
+        "registration_note": "此文件以独立 family 注册；50S/65S/70S 通过选择文件区分，不通过伪加粗或 font-weight 推断。"
+      }
+    },
+    {
+      "asset_id": "didi.font.hyqihei.65s",
+      "version": "1.0.0",
+      "version_scope": "本资产库的首次导入版本，不是官方品牌规范版本号。",
+      "type": "font",
+      "display_name": "汉仪旗黑 65S",
+      "file": "assets/brand/assets/fonts/HYQiHei-65S.otf",
+      "mime_type": "font/otf",
+      "byte_size": 6697492,
+      "sha256": "25293fe4410b065b84f36181af7acc551f7ce503fa58275233ee754b6e7ea9a2",
+      "source": {
+        "kind": "user_provided_directory",
+        "original_filename": "HYQiHei-65S.otf",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "didi",
+        "city-operations",
+        "font"
+      ],
+      "metadata": {
+        "family_names": [
+          "HYQiHei-65S",
+          "汉仪旗黑-65S"
+        ],
+        "subfamily": "Medium",
+        "full_name": "HYQiHei-65S Medium",
+        "postscript_name": "HYQiHei-FES",
+        "sfnt_weight_class": 400,
+        "units_per_em": 1000,
+        "ascender_units": 916,
+        "descender_units": -301,
+        "line_gap_units": 0,
+        "glyph_count": 28777,
+        "free_type_loadable": true,
+        "sample_coverage": {
+          "sample": "城市运营 活动海报 上海 北京 杭州 和这座城一起出发 活动时间 地点 扫码了解详情 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ，。！？：；（）×—%",
+          "tested_unique_characters": 103,
+          "missing_characters": [],
+          "scope": "仅验证本样本，不代表完整 Unicode 覆盖；运行时仍应检查用户输入字形。"
+        },
+        "sample_text_measurement": {
+          "text": "和这座城一起出发",
+          "font_size_px": 44,
+          "advance_width_px": 352,
+          "bbox_px": [
+            0,
+            5,
+            352,
+            47
+          ]
+        },
+        "css_family": "DiDi-HYQiHei-65S",
+        "web_font_face_weight": 400,
+        "registration_note": "此文件以独立 family 注册；50S/65S/70S 通过选择文件区分，不通过伪加粗或 font-weight 推断。"
+      }
+    },
+    {
+      "asset_id": "didi.font.hyqihei.70s",
+      "version": "1.0.0",
+      "version_scope": "本资产库的首次导入版本，不是官方品牌规范版本号。",
+      "type": "font",
+      "display_name": "汉仪旗黑 70S",
+      "file": "assets/brand/assets/fonts/HYQiHei-70S.otf",
+      "mime_type": "font/otf",
+      "byte_size": 6678960,
+      "sha256": "93bca1d9aa4ba4e9eca6be79023d42d3b4aaae6215178fd0619271f2fd2a602c",
+      "source": {
+        "kind": "user_provided_directory",
+        "original_filename": "HYQiHei-70S.otf",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "didi",
+        "city-operations",
+        "font"
+      ],
+      "metadata": {
+        "family_names": [
+          "HYQiHei-70S",
+          "汉仪旗黑-70S"
+        ],
+        "subfamily": "DemiBold",
+        "full_name": "HYQiHei-70S DemiBold",
+        "postscript_name": "HYQiHei-GZS",
+        "sfnt_weight_class": 400,
+        "units_per_em": 1000,
+        "ascender_units": 916,
+        "descender_units": -301,
+        "line_gap_units": 0,
+        "glyph_count": 28777,
+        "free_type_loadable": true,
+        "sample_coverage": {
+          "sample": "城市运营 活动海报 上海 北京 杭州 和这座城一起出发 活动时间 地点 扫码了解详情 0123456789 ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz ，。！？：；（）×—%",
+          "tested_unique_characters": 103,
+          "missing_characters": [],
+          "scope": "仅验证本样本，不代表完整 Unicode 覆盖；运行时仍应检查用户输入字形。"
+        },
+        "sample_text_measurement": {
+          "text": "和这座城一起出发",
+          "font_size_px": 44,
+          "advance_width_px": 352,
+          "bbox_px": [
+            0,
+            4,
+            352,
+            47
+          ]
+        },
+        "css_family": "DiDi-HYQiHei-70S",
+        "web_font_face_weight": 400,
+        "registration_note": "此文件以独立 family 注册；50S/65S/70S 通过选择文件区分，不通过伪加粗或 font-weight 推断。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.ginkgo-architecture",
+      "version": "1.0.0",
+      "version_scope": "本平台首次导入版本",
+      "type": "main_visual",
+      "display_name": "金秋银杏映古建",
+      "file": "assets/visuals/ginkgo-architecture.png",
+      "mime_type": "image/png",
+      "byte_size": 3141644,
+      "sha256": "0f3e0ffc00d446d6b11c88eca3dc28cbee3bda6ed149b4e5d25bdc3be14b676b",
+      "source": {
+        "kind": "user_provided_file",
+        "original_filename": "金秋银杏映古建.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "draft",
+      "brand_conformance_review": "not_performed",
+      "tags": [
+        "autumn",
+        "ginkgo",
+        "architecture"
+      ],
+      "metadata": {
+        "canvas_px": {
+          "width": 1448,
+          "height": 1086
+        },
+        "color_mode": "RGB",
+        "has_transparent_pixels": false,
+        "note": "首次试排的用户原图；由版式按比例裁剪展示，不修改源文件。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.hangzhou-weekend",
+      "version": "1.0.0",
+      "type": "main_visual",
+      "display_name": "周末，向城市出发",
+      "file": "assets/visuals/hangzhou-weekend.svg",
+      "mime_type": "image/svg+xml",
+      "byte_size": 2410,
+      "sha256": "96cb5786a8ff05de861aed4bbe023bb5217142df188fc6fc05c6573953ed82a8",
+      "source": {
+        "kind": "demo_vector_from_existing_scene"
+      },
+      "technical_status": "validated",
+      "publication_status": "demo_preset",
+      "metadata": {
+        "canvas_px": {
+          "width": 1240,
+          "height": 1040
+        },
+        "content_scope": "比赛第一轮流程演示的预置城市插画，未经正式品牌验收。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.travel-mood",
+      "version": "1.0.0",
+      "type": "main_visual",
+      "display_name": "轻松出发 · 人物主视觉",
+      "file": "assets/visuals/travel-mood.png",
+      "mime_type": "image/png",
+      "byte_size": 1032145,
+      "sha256": "c3d7497b27658a5a6fcfe1d0cf3078adef33afc785e6e2d8aeb3a41be0f32895",
+      "source": {
+        "kind": "user_provided_file",
+        "original_filename": "截屏2026-11-09 16.58.04 (1).png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "demo_source",
+      "metadata": {
+        "canvas_px": {
+          "width": 2664,
+          "height": 1494
+        },
+        "image_mode": "P",
+        "usage_note": "用户提供的演示主视觉；保留原始图像及内含文字。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.travel-surprise",
+      "version": "1.0.0",
+      "type": "main_visual",
+      "display_name": "每一程 都有惊喜",
+      "file": "assets/visuals/travel-surprise.png",
+      "mime_type": "image/png",
+      "byte_size": 541907,
+      "sha256": "f8845eecfe395acc7f2c3d4767d09ebdbfc272a24950f3a41b6f3495b66b64d0",
+      "source": {
+        "kind": "user_provided_file",
+        "original_filename": "每一程 都有惊喜.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "demo_source",
+      "metadata": {
+        "canvas_px": {
+          "width": 1673,
+          "height": 940
+        },
+        "image_mode": "P",
+        "usage_note": "用户提供的演示主视觉；保留原始图像及内含文字。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.travel-departure",
+      "version": "1.0.0",
+      "type": "main_visual",
+      "display_name": "向美好 即刻出发",
+      "file": "assets/visuals/travel-departure.png",
+      "mime_type": "image/png",
+      "byte_size": 534664,
+      "sha256": "48ce6e9cbdf17e2d21a9013b098a93bc28445133b9604699156ea11f6f63092b",
+      "source": {
+        "kind": "user_provided_file",
+        "original_filename": "向美好  即刻出发.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "demo_source",
+      "metadata": {
+        "canvas_px": {
+          "width": 1673,
+          "height": 940
+        },
+        "image_mode": "P",
+        "usage_note": "用户提供的演示主视觉；保留原始图像及内含文字。"
+      }
+    },
+    {
+      "asset_id": "didi.kv.travel-encounter",
+      "version": "1.0.0",
+      "type": "main_visual",
+      "display_name": "赴一场城市新遇",
+      "file": "assets/visuals/travel-encounter.png",
+      "mime_type": "image/png",
+      "byte_size": 1712062,
+      "sha256": "a08129d59d35111702e81d9a90d35de4cbffbadf9543e8dadbcb02be78691c45",
+      "source": {
+        "kind": "user_provided_file",
+        "original_filename": "赴一场城市新遇.png",
+        "received_on": "2026-11-09"
+      },
+      "technical_status": "validated",
+      "publication_status": "demo_source",
+      "metadata": {
+        "canvas_px": {
+          "width": 1673,
+          "height": 940
+        },
+        "image_mode": "RGB",
+        "usage_note": "用户提供的演示主视觉；保留原始图像及内含文字。"
+      }
+    }
+  ]
+}

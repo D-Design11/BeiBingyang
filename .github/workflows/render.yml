@@ -1,0 +1,42 @@
+name: Render images
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'public/**'
+      - 'scripts/**'
+      - 'examples/**'
+      - 'package.json'
+      - '.github/workflows/render.yml'
+  workflow_dispatch:
+    inputs:
+      brief:
+        description: '仓库内需求 JSON 路径'
+        required: true
+        default: examples/brief.json
+permissions:
+  contents: read
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+      - run: npm run check
+      - name: Render PNGs
+        env:
+          BRIEF_PATH: ${{ inputs.brief || 'examples/brief.json' }}
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: npm run render -- --input "$BRIEF_PATH"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: rendered-images
+          path: artifacts/
+          if-no-files-found: ignore
+          retention-days: 7

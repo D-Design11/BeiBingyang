@@ -1,0 +1,9 @@
+{
+  "title": "周末一起出发",
+  "subtitle": "发现城市好风景",
+  "visualAssetId": "didi.kv.travel-departure",
+  "materials": [
+    { "id": "landscape", "label": "横版海报", "w": 594, "h": 420, "template": "M" },
+    { "id": "portrait", "label": "竖版海报", "w": 420, "h": 594, "template": "M" }
+  ]
+}

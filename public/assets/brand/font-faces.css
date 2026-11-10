@@ -1,0 +1,25 @@
+/* Three independent font families. Original font files are unchanged. */
+
+@font-face {
+  font-family: 'DiDi-HYQiHei-50S';
+  src: url('./assets/fonts/HYQiHei-50S.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DiDi-HYQiHei-65S';
+  src: url('./assets/fonts/HYQiHei-65S.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DiDi-HYQiHei-70S';
+  src: url('./assets/fonts/HYQiHei-70S.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}

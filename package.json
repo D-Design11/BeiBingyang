@@ -1,0 +1,12 @@
+{
+  "name": "didi-design-rules",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "render": "node scripts/render.mjs"
+  }
+}

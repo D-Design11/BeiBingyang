@@ -1,0 +1,6 @@
+node_modules/
+artifacts/
+work/
+.DS_Store
+.env
+.env.*
